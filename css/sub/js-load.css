@@ -1,0 +1,86 @@
+/*로드*/
+.js-load {
+	display: none;
+}
+
+.js-load.active{
+	display: inline-block;
+}
+
+.is_comp.js-load:after {
+	display: none;
+}
+.btn-wrap, .lists, .subListBox {
+	display: block;
+}
+.subListBox {	width: 1000px;
+	margin: 0 auto;}
+
+
+
+
+
+
+/*버튼*/
+.btn-wrap {
+	text-align: center;
+    margin-top:20px;
+}
+
+.button {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+    border-radius: 50px;
+	text-align: center;
+	text-decoration: none;
+    outline: none;
+	position: relative;
+	z-index: 2;
+	background-color: #d59fff;
+	border: 2px solid #d59fff;
+	color: #fff;
+	line-height: 12px;
+	margin-bottom: 4rem;
+    padding-top:22px;
+    font-size:16px;
+}
+
+.button:hover{
+	background-color: #fff;
+	border-color: #d59fff;
+	color: #d59fff;
+}
+
+.button::before,
+.button::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';top: 0;
+
+	height: 100%;
+	background-color: #333;
+}
+
+.button,
+.button::before,
+.button::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+.button::before {
+	right: 0;
+}
+.button::after {
+	left: 0;
+}
+.button:hover::before,
+.button:hover::after {
+	width: 0;
+	background-color: #59b1eb;
+}

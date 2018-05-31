@@ -1,0 +1,150 @@
+.panelareaM{display: none;}
+
+
+/*닫기버튼*/
+.closeBtn{
+    width:70px; 
+    height: 70px; 
+    border:1px solid #dedede; 
+    margin:0 auto; 
+    position: absolute;
+    left:50%;
+    margin-left:-35px;
+    top:50px;
+}
+.closeBtn img{
+    width:100%;
+    transition:all 0.4s;
+}
+.closeBtn img{
+    width:100%; 
+    height: 100%; 
+    display: block;
+}
+.closeBtn:hover img{
+    transform:rotate(360deg)
+}
+
+
+/*타이틀꾸밈*/
+.subTitle{
+    text-align: center; 
+    margin:54px 0 29px 0;
+}
+.subTitle h2{
+    font-size:31px; 
+    font-weight: 500; 
+    color: #333;
+    width:1000px; 
+    text-align: center;
+}
+
+.subTitle p{
+    font-size:15px;
+    color:#959595; 
+    font-weight: 300;
+
+}
+.subTitle p span{
+    content: ""; 
+    display: inline-block; 
+    width:1px; 
+    height: 13px; 
+    margin:-1px 8px; 
+    background: #dedede;
+}
+
+
+
+#subheaderWrap{
+    position: relative;
+    height: 115px;
+
+}
+
+
+
+/*박스꾸밈*/
+
+.desBox{
+    text-align: center; 
+    border:1px solid #dedede; 
+    border-bottom: 0;
+    padding:45px 20px; 
+    box-sizing: border-box;
+    color:#959595; 
+    }
+.desBox p{
+    font-weight: 300; 
+    font-size:15px; 
+    line-height: 24px; 
+    margin-bottom: 50px;
+}
+.desBox img{
+    margin-bottom: 50px;
+
+}
+
+
+
+
+
+
+/*하단 바 버튼꾸밈*/
+.bottomBtn{
+    position: relative;
+    width:1000px; 
+    background: url(../../images/sub/bottomBtnBg.png) no-repeat; 
+    background-size: 100%; 
+    margin-bottom: 100px; 
+    box-sizing: border-box;
+    font-size:0;
+}
+
+.bottomBtn div{
+   display: inline-block; box-sizing: border-box;}
+
+.bottomPrev{width:120px; vertical-align: middle; text-align: left; padding-left:30px; box-sizing: border-box;}
+.bottomlist{
+    position: absolute; width:130px; left:50%; margin-left:-65px;    
+     vertical-align: middle;  text-align: center; }
+.bottomNext{
+    position: absolute; right:0; top:0;
+    width:120px; vertical-align: middle;  text-align: right; padding-right:30px; box-sizing: border-box; border-right:0;}
+
+.bottomBtn div a{padding:15px 0;}
+.bottomBtn>div a{display: block;}
+
+
+    /*prev버튼*/
+.bottomTxt{display: inline-block; font-size:15px; font-weight: 400; letter-spacing: 1px; color: #fff;}
+
+
+.bottomPrev img{vertical-align: middle;}
+.bottomPrev span{vertical-align: middle; margin-top:-4px; margin-left:8px;}
+
+
+
+.bottomNext img{vertical-align: middle;}
+.bottomNext span{vertical-align: middle; margin-top:-4px; margin-right:8px;}
+
+
+
+
+.bottomNext a{
+    display: block;
+    transition:all 0.4s;
+}
+.bottomPrev a{
+    display: block;
+    transition:all 0.4s;
+}
+.bottomPrev a:hover{
+    transform:translate(-10px,0);}
+.bottomNext a:hover{
+    transform:translate(10px,0);}
+    /*리스트버튼*/
+
+
+
+    /*넥스트버튼*/

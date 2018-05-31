@@ -1,0 +1,23 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face{
+	font-family:’bodoni’;
+	src:url(font/bodoni.TTF) format(‘truetype’);}
+
+*{margin:0; padding:0;}
+body{font-family: 'Noto Sans KR', sans-serif; font-weight: 100; }
+ul{margin:0; padding:0; list-style: none;}
+a{text-decoration: none; color: #333;}
+.cf:after{content: ""; display: block; clear: both;}
+#wrap{width:100%;}
+.inner{width:1000px; margin: 0 auto;}
+
+.colorP{color:#d59fff;}
+.fontSerif{font-family: 'Playfair Display', serif; letter-spacing: 2px; font-weight: normal;}
+
+
+.lastMgR0{margin-right:0;}
+.letterSp2px{letter-spacing: 2px;}
+.letterSp0{letter-spacing: 0;}
+
+img{border: 0;}
+
